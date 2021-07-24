@@ -2,8 +2,6 @@ syntax = "proto3";
 
 option go_package = "/proto";
 
-package contactList;
-
 service ContactRequest {
     rpc Create ( CreateUserRequest ) returns ( CreateUserResponse ) {}
     rpc Update ( UpdateUserRequest ) returns ( UpdateUserResponse ) {}
